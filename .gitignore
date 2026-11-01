@@ -1,0 +1,21 @@
+# Local lab inputs and runtime artifacts
+.env
+.env.*
+!.env.example
+/private/
+/secrets/
+/artifacts/
+/runs/
+/images/
+/target/
+/clab-*/
+*.qcow2
+*.vmdk
+*.iso
+*.pcap
+*.pcapng
+*.key
+*.pem
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
